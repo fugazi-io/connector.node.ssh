@@ -1,7 +1,3 @@
-/**
- * Created by ehoggeg on 29/07/2017.
- */
-
 import * as ssh from "ssh2"
 import * as connector from "@fugazi/connector";
 import program = require("commander");
