@@ -1,0 +1,23 @@
+{
+	"compilerOptions": {
+		"target": "ES6",
+		"module": "commonjs",
+
+		"outDir": "bin",
+		"rootDir": "src",
+		"sourceMap": true,
+		"declaration": true,
+
+		"skipLibCheck": true,
+		"alwaysStrict": true,
+		"noImplicitAny": true,
+		"removeComments": true,
+		"noImplicitThis": true,
+		"strictNullChecks": true,
+		"noImplicitReturns": true,
+		"skipDefaultLibCheck": true
+	},
+	"exclude": [
+		"../node_modules"
+	]
+}

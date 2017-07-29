@@ -1,0 +1,23 @@
+{
+  "name": "@fugazi/connector.ssh",
+  "version": "1.0.1",
+  "description": "a fugazi connector for executing commands over ssh",
+  "main": "./scripts/bin/index.js",
+  "types": "./scripts/bin/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fugazi-io/connector.node.ssh.git"
+  },
+  "author": "Ehud Hoggeg <ehudhoggeg@gmail.com> (https://github.com/creativeChips)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fugazi-io/connector.node.ssh/issues"
+  },
+  "homepage": "https://github.com/fugazi-io/connector.node.ssh#readme",
+  "dependencies": {
+    "@fugazi/connector": "^1.0.15",
+    "@types/ssh2": "^0.5.35",
+    "ssh2": "^0.5.5",
+    "typescript": "^2.1.6"
+  }
+}
